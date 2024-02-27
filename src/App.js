@@ -1,10 +1,14 @@
-import './App.css';
-import LogIn from './components/login';
+import "./App.css";
+import AddDefects from "./components/addDefects";
+import LogIn from "./components/login";
+import Defects from "./components/view_Defects";
 
 function App() {
   return (
     <div className="App">
-     <LogIn />
+      <LogIn />
+      <Defects />
+      <AddDefects />
     </div>
   );
 }
